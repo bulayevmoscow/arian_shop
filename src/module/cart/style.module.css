@@ -1,0 +1,27 @@
+.cart_container {
+    background-color: #d39c9c;
+    grid-template-columns: 1fr;
+    flex: 1 1 auto;
+    height: 100%;
+}
+
+.cart_item_container {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: #9cd3ac;
+    min-height: 100px;
+    justify-content: space-between;
+}
+
+.cart_item_container:not(:last-child){
+    margin-bottom: 5px;
+}
+
+.cart_item_container h3,p {
+    margin: 0;
+}
+
+.cart_item_container p{
+    text-transform: capitalize;
+}

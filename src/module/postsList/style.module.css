@@ -1,0 +1,38 @@
+.container {
+    max-width: 700px;
+    background: rgba(93, 88, 88, 0.62);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container_posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    margin: 5px;
+}
+
+.container_post {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.container_page_buttons {
+    display: flex;
+    margin-top: auto;
+}
+
+.container_page_buttons button {
+    border: 0;
+    padding: 10px;
+}
+
+.container_page_buttons button:not(:last-child) {
+    margin-right: 5px;
+}
+
+.container_page_buttons button.active {
+    background-color: #d39c9c;
+}

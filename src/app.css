@@ -1,0 +1,20 @@
+#App {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 600px;
+}
+
+#App > *:nth-child(1) {
+    flex: 1 1 60%;
+}
+
+#App > *:nth-child(2) {
+    flex: 1 1 30%;
+    overflow-y: scroll;
+    height: 100%;
+}
